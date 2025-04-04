@@ -1,0 +1,114 @@
+@chatset "UTF-8";
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap');
+
+body {
+    background-color: #000;
+}
+
+main::after{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: blueviolet;
+    min-height: 100vh;
+    width: 80vh;
+    background: linear-gradient(92deg, #000 50%, rgba(0, 0, 0, 0.5) 100%);
+}
+main .personagem {
+    display: none;
+    height: 100vh;
+    
+}
+
+main .personagem.selecionado {
+    display: block;
+}
+
+main .personagem .imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.conteudo {
+ 
+    position: absolute;
+    top: 0;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    max-width: 380px;    
+    z-index: 1;
+}
+
+.conteudo .nome-personagem{
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+
+.conteudo .descricao {
+    color: white;
+    font-family: 'rubik';
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.botoes{
+    background-color: rgba(0, 0, 0, 0.185);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 180px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 13px;
+}
+.botoes .botao{
+    border: none;
+    background-color: #00000000;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 50%;
+}
+.botoes .botao img{
+    border-radius: 50%;
+}
+.botoes .botao.selecionado{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+.botoes .botao.cyberstorm.selecionado{
+    box-shadow: 0 0 10px #47FFC5;
+}
+
+.botoes .botao.codepixie.selecionado{
+    box-shadow: 0 0 10px #9747FF;
+}
+
+.botoes .botao.hexblade.selecionado{
+    box-shadow: 0 0 10px #FFA947;
+}
+
+.botoes .botao.neonpulse.selecionado{
+    box-shadow: 0 0 10px #E4309A;
+}
+
+.botoes .botao.codebreaker.selecionado{
+    box-shadow: 0 0 10px #FFF047;
+}
+</style>
