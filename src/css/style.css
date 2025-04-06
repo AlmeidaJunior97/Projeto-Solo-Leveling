@@ -76,6 +76,7 @@ main .personagem .imagem {
     justify-content: center;
     min-height: 100vh;
     gap: 13px;
+    overflow-x: auto;
 }
 .botoes .botao{
     border: none;
