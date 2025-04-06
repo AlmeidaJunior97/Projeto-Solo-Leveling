@@ -52,6 +52,7 @@ main .personagem .imagem {
     font-family: 'Secular One', sans-serif;
     font-weight: 700;
     margin-bottom: 20px;
+    font-size: 3em;
     
 }
 
@@ -93,22 +94,25 @@ main .personagem .imagem {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     background-color: rgba(255, 255, 255, 0.1); 
 }
-.botoes .botao.cyberstorm.selecionado{
-    box-shadow: 0 0 10px #47FFC5;
+.botoes .botao.jinwoo.selecionado{
+    box-shadow: 0 0 10px #C2C2BA;
 }
 
-.botoes .botao.codepixie.selecionado{
-    box-shadow: 0 0 10px #9747FF;
+.botoes .botao.beru.selecionado{
+    box-shadow: 0 0 10px #FDA2FB;
 }
 
-.botoes .botao.hexblade.selecionado{
-    box-shadow: 0 0 10px #FFA947;
+.botoes .botao.igris.selecionado{
+    box-shadow: 0 0 10px #DEFEFF;
 }
 
-.botoes .botao.neonpulse.selecionado{
-    box-shadow: 0 0 10px #E4309A;
+.botoes .botao.tusk.selecionado{
+    box-shadow: 0 0 10px #300D11;
 }
 
-.botoes .botao.codebreaker.selecionado{
-    box-shadow: 0 0 10px #FFF047;
+.botoes .botao.iron.selecionado{
+    box-shadow: 0 0 10px #FFFFFF;
+}
+.botoes .botao.greed.selecionado{
+    box-shadow: 0 0 10px #F9DAF9
 }

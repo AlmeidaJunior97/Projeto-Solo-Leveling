@@ -20,12 +20,13 @@
     }
 
     .conteudo .nome-personagem {
-        font-size: 12vw;
+        font-size: 10vw;
     }
 
     .conteudo .descricao {
         max-width: 500px;
-        font-size: 24px;
+        font-size: 14px;
+        text-shadow: #00000079 1px 1px 10px;
     }
 
     .botoes {
