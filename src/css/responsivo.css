@@ -34,10 +34,12 @@
         align-items: flex-end;
         width: 100%;
         padding: 30px;
+        
     }
     .botoes .botao{
         width: 70px;
         height: 70px;
+        overflow-x: auto;
     }
 
     .botoes .botao img {
