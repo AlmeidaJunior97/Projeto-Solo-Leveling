@@ -1,8 +1,9 @@
 @chatset "UTF-8";
 
-<style>
+
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap');
+
 
 body {
     background-color: #000;
@@ -111,4 +112,3 @@ main .personagem .imagem {
 .botoes .botao.codebreaker.selecionado{
     box-shadow: 0 0 10px #FFF047;
 }
-</style>
