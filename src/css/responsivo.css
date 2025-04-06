@@ -31,15 +31,21 @@
 
     .botoes {
         flex-direction: row;
-        align-items: flex-end;
+        align-items: flex-end;        
+        justify-content: flex-start;
         width: 100%;
-        padding: 30px;
+        height: auto;
+        padding: 30px;        
+        overflow-x: auto;
         
     }
+    .botoes::-webkit-scrollbar {
+        display: none; /* Chrome, Safari */
+      }
     .botoes .botao{
+        flex: 0 0 auto; /* Impede que os botões encolham */
         width: 70px;
         height: 70px;
-        overflow-x: auto;
     }
 
     .botoes .botao img {
